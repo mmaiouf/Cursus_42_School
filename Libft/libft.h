@@ -6,7 +6,7 @@
 /*   By: momaiouf <momaiouf@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 16:01:56 by momaiouf          #+#    #+#             */
-/*   Updated: 2022/11/18 20:18:03 by momaiouf         ###   ########.fr       */
+/*   Updated: 2023/02/06 17:40:36 by momaiouf         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdint.h>
 
 typedef struct s_list
 {
