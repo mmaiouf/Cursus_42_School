@@ -59,7 +59,7 @@ void	*ft_memcpy(void *dest, void *src, size_t size)
 	return (dest);
 }
 
-char	*ft_strjoin(char *s1, char *s2)
+char	*ft_strjoin_free(char *s1, char *s2)
 {
 	char	*mystr;
 	size_t	len_s1;

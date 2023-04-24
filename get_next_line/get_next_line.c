@@ -48,7 +48,7 @@ char	*read_file(int fd, char *backup)
 			return (NULL);
 		}
 		buffer[nb_read] = '\0';
-		backup = ft_strjoin(backup, buffer);
+		backup = ft_strjoin_free(backup, buffer);
 		if (backup == NULL)
 			return (NULL);
 	}

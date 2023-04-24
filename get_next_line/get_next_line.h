@@ -29,6 +29,6 @@ int				get_index_linebreak(char *str);
 int				get_len_line(char *str);
 size_t			ft_strlen(char const *str);
 void			*ft_memcpy(void *dest, void *src, size_t size);
-char			*ft_strjoin(char *s1, char *s2);
+char			*ft_strjoin_free(char *s1, char *s2);
 
 #endif
