@@ -18,9 +18,6 @@ RM = rm -rf
 
 all:	$(NAME_CLIENT) $(NAME_SERVER)
 
-%.o	: %.c $(HEADER) Makefile
-		$(CC) $(CFLAGS) -c $< -o $@
-
 $(NAME_CLIENT) : $(OBJ_FILES_CLIENT)
 		@make -C Libft
 		$(CC) $(CFLAGS) $(OBJ_FILES_CLIENT) $(HEADER) Libft/$(LIBFT) -o $(NAME_CLIENT)
