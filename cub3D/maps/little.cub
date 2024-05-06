@@ -1,0 +1,14 @@
+WE ./redbrick.xpm
+SO ./mossy.xpm
+NO ./greystone.xpm
+EA ./wood.xpm
+
+F 80,200,123
+C 255,192,200
+
+111111
+100001
+10N001
+101101
+101001
+111111
